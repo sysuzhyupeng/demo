@@ -1,0 +1,29 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --hot --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sysuzhyupeng/demo.git"
+  },
+  "author": "sysuzhyupeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sysuzhyupeng/demo/issues"
+  },
+  "homepage": "https://github.com/sysuzhyupeng/demo#readme",
+  "devDependencies": {
+    "babel-core": "5.8.*",
+    "babel-loader":"5.3.*",
+    "webpack":"1.13.3",
+    "webpack-dev-server":"1.10.1"
+  },
+  "dependencies": {
+    "react": "^0.13.*"
+  }
+}
